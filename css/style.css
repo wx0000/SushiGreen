@@ -553,11 +553,13 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.3);
   z-index: 9999;
   opacity: 0;
   visibility: hidden;
-  transform: all 0.3s; }
+  transform: all 0.3s;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px); }
   .popup__content {
     position: absolute;
     top: 50%;
