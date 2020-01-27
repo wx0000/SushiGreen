@@ -617,7 +617,7 @@ body {
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
-  @media (min-resolution: 192dpi) and (min-width: 600px), (min-width: 2000px) {
+  @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
     .header {
       background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(17, 82, 60, 0.8)), url(../img/mainback.jpg); } }
   @media (max-width: 37.5em) {
@@ -862,10 +862,13 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(17, 82, 60, 0.8)), url(../img/mainback1.jpg);
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(17, 82, 60, 0.8)), url(../img/mainback1-small.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
+  @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
+    .section-features {
+      background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(17, 82, 60, 0.8)), url(../img/mainback1.jpg); } }
   @media (max-width: 56.25em) {
     .section-features {
       padding: 10rem 0; } }
