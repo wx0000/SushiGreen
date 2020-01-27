@@ -51,9 +51,12 @@ body {
   color: transparent;
   letter-spacing: 1rem;
   transition: all 0.5s;
+  margin-left: 6rem;
 
   @include respond(tab-port) {
     font-size: 3rem;
+    margin-left: 1rem;
+    text-align: center;
   }
 
   @include respond(phone) {
